@@ -18,8 +18,8 @@ function nameAbbrev() {
   let userNameFinal = userNameCaps.replace(/[^a-zA-Z]/g, "");
 
   if (userNameFinal === null || userNameFinal === '') {
-    response.innerHTML = `type your name dumbass`;
+    response.innerHTML = `umm... your name?`;
   } else {
-    response.innerHTML = `Fuck you ${userNameFinal}.`;
+    response.innerHTML = `Hello ${userNameFinal}.`;
   }
 };
